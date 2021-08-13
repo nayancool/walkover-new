@@ -637,3 +637,24 @@ nav .icon-burger .line {
   font-weight: 300;
   letter-spacing: 1px;
 }
+
+/*Floating Back-To-Top Button*/
+#myBtn {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 18.5%;
+  left: 77.25%;
+  max-width: 50px;
+  width: 100%;
+  font-size: 17px;
+  border-color: rgba(85, 85, 85, 0.2);
+  background-color: black;
+  padding: 1px;
+  border-radius: 8px;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+  background-color: #7dbbf1;
+}
